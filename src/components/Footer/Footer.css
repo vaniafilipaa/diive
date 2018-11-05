@@ -1,0 +1,42 @@
+.page-footer {
+    padding: 25px
+}
+
+.rights-reserved {
+    color: #8D8D8D;
+    font-size: 12px;
+    margin: 0
+}
+
+.why-lavva  a {
+    color: #858585;
+    font-size: 10px;
+    margin: 0;
+    display: inline-block
+}
+
+.why-lavva a:hover {
+    color: #00baf1;
+    text-decoration: none
+}
+
+.list-inline {
+    margin: 0
+}
+
+.list-inline-item .btn-sm {
+    padding: 0
+}
+
+.list-inline-item .btn-sm .social-icon {
+    width: 30px!important;
+    height: 30px!important
+}
+
+.social-svg-icon {
+    fill: #A0A0A0!important
+}
+
+.social-svg:hover .social-svg-icon {
+    fill: #00baf1!important
+}

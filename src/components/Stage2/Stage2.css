@@ -1,0 +1,209 @@
+#Stage2 {
+    max-width: 1600px;
+    background: #F6F6F6;
+    padding: 0
+}
+
+#Stage2 .elements {
+    padding: 0;
+    margin: 0;
+}
+
+#Stage2 .elements .wrapper {
+    background:#DDD;
+    display: inline-block;
+    padding: 10px;
+    height: 1040px;
+    width: auto;
+    padding: 0
+}
+
+#Stage2 .elements .wrapper:nth-child(1) {
+    top: -20px
+}
+
+#Stage2 .elements .wrapper:nth-child(3) {
+    top: -40px
+}
+
+#Stage2 .elements .contents, #Stage2 .elements .contents .inner {
+    display:inline-block;
+}
+
+#Stage2 .elements .contents {
+    height: 100%;
+}
+
+#Stage2 .elements .contents .inner {
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#Stage2 .elements .wrapper:hover {
+    z-index: 1;
+    cursor: pointer
+}
+
+#Stage2 .elements .wrapper:hover:nth-child(1) .contents .inner {
+    width: 135%;
+}
+
+#Stage2 .elements .wrapper:hover:nth-child(1) .contents .inner .text-container {
+    width: 120%;
+    background-color: rgba(0,0,0,0)!important
+}
+
+#Stage2 .elements :nth-child(1) .contents .inner .img-responsive {
+    object-position: -640px 50%;
+}
+
+#Stage2 .elements .img-responsive {
+    object-position: 0 0;
+    object-fit: none;
+}
+
+#Stage2 .elements .text-container {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    padding: 150px 100px;
+}
+
+#Stage2 .elements .text-container h4 {
+    color: #ffffff;	
+    font-size: 24px;
+}
+
+#Stage2 .elements .text-container h1 {
+    width: 370px;
+    line-height: 110px;
+    font-size: 140px;
+}
+
+#Stage2 .elements :nth-child(1) .text-container h1 {
+    color: #EE4294;	
+    font-family: "TexasGrungeDemo";	
+    letter-spacing: -10.5px;	
+}
+
+#Stage2 .elements :nth-child(2) .text-container h1 {
+    width: 320px;	
+    color: #DF1C24;	
+    font-family: "Oswald";	
+    letter-spacing: -9.75px;
+    line-height: 120px
+}
+
+#Stage2 .elements :nth-child(3) .text-container h1 {
+    color: #FFC000;	
+    font-family: "this";	
+    font-size: 120px;	
+    letter-spacing: -9px;
+}
+
+#Stage2 .elements .text-container .rounded-circle.outer-circle {
+    width: 54px;
+    height: 54px;
+    background-color: transparent;
+    position: relative;
+    box-shadow: 0 0 30px #fff;
+    margin-top: 25px
+}
+
+#Stage2 .elements .text-container .rounded-circle.inner-circle {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -22px 0px 0px -22px;
+}
+
+#Stage2 .elements .text-container .rounded-circle .fa-plus {
+    width: 100%;
+    color: #A6A6A6;
+    height: 50%;
+    vertical-align: middle;
+}
+
+
+.modal-open {
+    padding-right: 0!important;
+    overflow: auto!important
+}
+
+.modal.show .modal-dialog {
+ -webkit-transform: none;
+ -ms-transform: none;
+ transform: none;
+}
+
+#modal1, #modal2 {
+    display: none
+}
+
+.modal-backdrop {
+    display: none
+}
+
+
+@media (max-width: 1600px) {
+    #Stage2 .elements .text-container h1 {
+        line-height: 90px;
+        font-size: 120px;
+    }
+    #Stage2 .elements :nth-child(2) .text-container h1 {
+        width: 200px;
+    }
+    #Stage2 .elements :nth-child(3) .text-container h1 {
+        font-size: 100px;	
+    }
+}
+
+@media (max-width: 1420px) {
+   #Stage2 .elements .text-container h1 {
+        line-height: 70px;
+        font-size: 100px;
+        width: auto;
+    }
+    #Stage2 .elements :nth-child(2) .text-container h1 {
+        width: 200px;
+    }
+    #Stage2 .elements :nth-child(3) .text-container h1 {
+        font-size: 80px;	
+    }
+}
+
+@media (max-width: 1315px) {
+   #Stage2 .elements .text-container h1 {
+        line-height: 60px;
+        font-size: 80px;
+    }
+    #Stage2 .elements :nth-child(2) .text-container h1 {
+        width: 200px;
+    }
+    #Stage2 .elements :nth-child(3) .text-container h1 {
+        font-size: 80px;	
+    }
+}
+
+@media (max-width: 991.98px) {
+    #Stage2 .elements .wrapper {
+        height: auto;
+        min-height: 325px;
+        top: 0!important;
+    }
+    #Stage2 .elements .text-container {
+        padding: 50px
+    }
+     #Stage2 .elements :nth-child(2) .text-container h1 {
+        line-height: 60px
+    }
+}

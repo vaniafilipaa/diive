@@ -1,0 +1,24 @@
+#Stage4 {
+    max-width: 1600px;
+    padding: 0
+}
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+#Stage4 .images > div {
+    padding: 0;
+    min-width: 50px;
+    height: 400px
+}
+
+/* --- MEDIA QUERIES --- */
+
+@media (max-width: 991.98px) {
+    #Stage4 .images > div {
+        height: 200px
+    }
+}

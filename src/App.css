@@ -1,32 +1,92 @@
+@font-face {
+  font-family: 'AvenirLTStd';
+  src: url('fonts/AvenirLTStd-Black.eot');
+  src: url('fonts/AvenirLTStd-Black.woff2') format('woff2'),
+       url('fonts/AvenirLTStd-Black.woff') format('woff'),
+       url('fonts/AvenirLTStd-Black.ttf') format('truetype'),
+       url('fonts/AvenirLTStd-Black.svg#AvenirLTStd-Black') format('svg'),
+       url('fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirLTStd';
+  src: url('fonts/AvenirLTStd-Light.eot');
+  src: url('fonts/AvenirLTStd-Light.woff2') format('woff2'),
+       url('fonts/AvenirLTStd-Light.woff') format('woff'),
+       url('fonts/AvenirLTStd-Light.ttf') format('truetype'),
+       url('fonts/AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg'),
+       url('fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url('fonts/CircularStd-Medium.eot');
+  src: url('fonts/CircularStd-Medium.woff2') format('woff2'),
+       url('fonts/CircularStd-Medium.woff') format('woff'),
+       url('fonts/CircularStd-Medium.ttf') format('truetype'),
+       url('fonts/CircularStd-Medium.svg#CircularStd-Medium') format('svg'),
+       url('fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url('fonts/CircularStd-Bold.eot');
+  src: url('fonts/CircularStd-Bold.woff2') format('woff2'),
+       url('fonts/CircularStd-Bold.woff') format('woff'),
+       url('fonts/CircularStd-Bold.ttf') format('truetype'),
+       url('fonts/CircularStd-Bold.svg#Circular-Std-Bold') format('svg'),
+       url('fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('fonts/Oswald-Regular.eot');
+  src: url('fonts/Oswald-Regular.woff2') format('woff2'),
+       url('fonts/Oswald-Regular.woff') format('woff'),
+       url('fonts/Oswald-Regular.ttf') format('truetype'),
+       url('fonts/Oswald-Regular.svg#Oswald-Regular') format('svg'),
+       url('fonts/Oswald-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TexasGrungeDemo';
+  src: url('fonts/TexasGrungeDemo.eot');
+  src: url('fonts/TexasGrungeDemo.woff2') format('woff2'),
+       url('fonts/TexasGrungeDemo.woff') format('woff'),
+       url('fonts/TexasGrungeDemo.ttf') format('truetype'),
+       url('fonts/TexasGrungeDemo.svg#TexasGrungeDemo') format('svg'),   
+       url('fonts/TexasGrungeDemo.eot?#iefix') format('embedded-opentype');  
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'This';
+  src: url('fonts/this-Regular.eot');
+  src: url('fonts/this-Regular.woff2') format('woff2'),
+       url('fonts/this-Regular.woff') format('woff'),
+       url('fonts/this-Regular.ttf') format('truetype'),
+       url('fonts/this-Regular.svg#this-Regular') format('svg'),
+       url('fonts/this-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: 'CircularStd'!important;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    max-width: 1600px;
+    margin: 0 auto
 }

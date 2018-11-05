@@ -1,0 +1,62 @@
+#Stage5 {
+    max-width: 1600px;
+    background: #3C3C3C;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#Stage5 .info {
+    padding: 0!important;
+}
+
+.companies-say-about {
+    color: #EE4294;	
+    font-family: "AvenirLTStd";	
+    font-size: 12px;	
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-bottom: 25px
+}
+
+.citation {
+    color: #787878;
+    font-family: "CircularStd";
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 54px;
+    max-width: 920px;
+    margin: 0 auto;
+} 
+@media (max-width: 767.98px) {
+    .citation {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+
+.brands {
+    margin: 75px auto;
+}
+
+.brands img {
+    max-width: 100px
+}
+
+.your-companie {
+    font-size: 12px;	
+    font-weight: 900;	
+    letter-spacing: 2.4px;	
+    line-height: 48px;	
+}
+
+.your-companie button {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "AvenirLTStd";
+    font-size: 12px;
+    letter-spacing: 2.4px;	
+    border-radius: 24px;	
+    padding: 14px 40px;
+    background-color: #EE4294;
+}

@@ -1,0 +1,160 @@
+
+#stage1 {
+    max-width: 1600px;
+    width: 100%;
+    background-image: url('img/bluepattern.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    padding-top: 70px
+}
+
+#stage1 .anyplace-anywhere-anytime h2 {
+    color: #FFFFFF;	
+    font-size: 24px;	
+    font-weight: 900;	
+    line-height: 24px;	
+    margin: 100px auto 50px auto;
+}
+
+#stage1 .never-settle h1 {
+    font-size: 250px;
+    line-height: 200px;
+    color: #049EDE;
+    font-family: "AvenirLTStd";
+    letter-spacing: 2.5px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+#stage1 .never-settle .settle h1 {
+    color: #FFFFFF;
+}
+
+#stage1 .never-settle .diive-blue {
+    position: relative;
+    margin-top: -540px
+}
+
+#stage1 .never-settle .diive-blue .description {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 250px;
+    left: 90px;
+    z-index: 1;
+}
+
+#stage1 .never-settle .diive-blue .description p {
+    margin: 0;
+}
+
+#stage1 .never-settle .diive-blue .description .rounded-circle.outer-circle {
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    float: right;
+    position: relative;
+    border-radius: 18px;
+    box-shadow: 0 0 30px #fff;
+    margin-top: -15px;
+}
+
+#stage1 .never-settle .diive-blue .description .rounded-circle.inner-circle {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #C45EDB;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -40px 0px 0px -40px;
+}
+
+#stage1 .never-settle .diive-blue .description .rounded-circle span {
+    vertical-align: middle;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* --- MEDIA QUERIES --- */
+
+@media (max-width: 1199.98px) {
+    #stage1 .never-settle h1 {
+        font-size: 180px;
+        line-height: 140px;
+    }
+
+     #stage1 .never-settle .diive-blue {
+        margin-top: -420px
+    }
+
+     #stage1 .never-settle .diive-blue .description {
+        bottom: 170px
+    }
+}
+
+@media (max-width: 991.98px) {
+    #stage1 .never-settle .diive-blue {
+        margin-top: -100px
+    }
+
+     #stage1 .never-settle .diive-blue .description {
+        bottom: 320px
+    }
+
+     #stage1 .never-settle .diive-blue .description .rounded-circle.outer-circle {
+        width: 60px;
+        height: 60px;
+        float: none;
+        margin: 0 auto
+    }
+
+     #stage1 .never-settle .diive-blue .description .rounded-circle.inner-circle {
+        width: 56px;
+        height: 56px;
+        line-height: 56px;
+        margin: -28px 0px 0px -28px;
+    }
+
+     #stage1 .never-settle .diive-blue .description .rounded-circle span {   
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #stage1 .never-settle h1 {
+        font-size: 120px;
+        line-height: 100px;
+    }
+
+     #stage1 .never-settle .diive-blue {
+        margin-top: -50px
+    }
+
+     #stage1 .never-settle .diive-blue .description {
+        bottom: 260px;
+        left: 0
+    }
+
+     #stage1 .never-settle .diive-blue .description .rounded-circle.outer-circle {
+        float: right
+    }
+}
+
+@media (max-width: 575.98px) {
+    #stage1 .anyplace-anywhere-anytime h2 {
+        margin: 50px auto 25px auto;
+    }
+
+    #stage1 .never-settle h1 {
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+     #stage1 .never-settle .diive-blue {
+        margin-top: 0
+    }
+
+     #stage1 .never-settle .diive-blue .description {
+        top: 20px
+    }
+}
